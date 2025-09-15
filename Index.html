@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman</title>
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="style/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+  </head>
+  <body>
+    <!-- Isi konten halaman web -->
+    <header class="navbar-container">
+      <div class="nav-overlay"></div>
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <br>
+      <br>
+      <br>
+      <h3>*Note: Kamu bisa Spill Quotes di sini</h3>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#home" class="active" onclick="showLoading(event)" style="color: #888; font-style: italic;">Home</a></li>
+          <li><a href="#s-about" onclick="showLoading(event)" style="color: #888; font-style: italic;">About</a></li>
+          <li><a href="#s-free" onclick="showLoading(event)" style="color: #888; font-style: italic;">Free</a></li>
+          <li><a href="#s-kontak" onclick="showLoading(event)" style="color: #888; font-style: italic;">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="s-home">
+        <div class="content">
+          <div class="content-description">
+            <h1 class="title">[ Visi — Misi kamu ]</h1>
+            <p id="typed-text" style="min-height: 10px; white-space: pre-wrap; font-size: 16px; color: #ffffff; margin: 20px auto; max-width: 1000px; text-align: left; font-family:  quicksand, sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, mi eget porttitor malesuada, lacus justo ornare mi, ut sagittis felis magna sit amet urna. Quisque gravida, purus in viverra dignissim, odio mauris commodo turpis, id lacinia neque ipsum in nunc.</p>
+            
+            <small style="display: block; margin-top: 15px; color: #999; font-style: italic;">
+              “Even the quietest voices have stories worth hearing.”
+            </small>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://"><i class="fab fa-tiktok"></i></a></li>
+                    <li><a href="https://"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+          </div>
+          
+          <div class="content-image">
+            <img src="https://placehold.co/300x300/png" alt="Foto Template">
+          </div>
+        </div>
+        
+      <div class="divider"></div>
+
+      <!-- About Section -->
+      <section id="s-about">
+        <section id="about" class="section about">
+          <div class="container">
+            <h1 class="title">
+              <span class="dynamic-text">
+                <span class="word">Nama kamu disini</span>
+                
+              </span>
+            </h1>
+            <p class="description">
+              Suspendisse vitae dignissim lorem, nec tincidunt sapien. Integer vel erat eget erat vulputate dignissim. Aliquam suscipit turpis nec rhoncus scelerisque. Curabitur auctor justo eu risus feugiat, a varius nunc ultricies. Duis eget nibh arcu. Mauris euismod volutpat ipsum, nec convallis libero ultricies ac. In sed facilisis enim, nec vehicula nibh.
+            </p>
+            <small style="display: block; margin-top: 15px; color: #888; font-style: italic;">
+              “Harapan dan impian kamu disini”
+            </small>
+          </div>
+        </section> 
+      </section>
+
+      <div class="divider"></div>
+      
+      <section id="s-free">
+        
+        <div class="container" style="max-width: 900px; margin: 0 auto; padding: 60px 20px;">
+          <h1 style="text-align:center; color:#ffff; font-size:2.2rem; margin-bottom:1rem;">Section Bebas</h1>
+          <h2 style="text-align:center; color:#fff; font-size:1.2rem; font-weight:400; margin-bottom:2.5rem;">Isi apa aja di section ini</h2>
+          <div class="showcase-grid" style="display:flex; flex-wrap:wrap; gap:2rem; justify-content:center;">
+            <div style="background:rgba(255,255,255,0.04); border-radius:12px; padding:2rem 1.5rem; min-width:220px; flex:1 1 220px; max-width:300px; text-align:center;">
+              <div style="font-size:2.5rem; margin-bottom:0.7rem;">🎨</div>
+              <h3 style="color:#ffff; margin-bottom:0.5rem;">Portofolio/Produk 1</h3>
+              <p style="color:#ccc; font-size:1rem;">Deskripsi singkat produk atau karya di sini.</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.04); border-radius:12px; padding:2rem 1.5rem; min-width:220px; flex:1 1 220px; max-width:300px; text-align:center;">
+              <div style="font-size:2.5rem; margin-bottom:0.7rem;">💡</div>
+              <h3 style="color:#ffff; margin-bottom:0.5rem;">Portofolio/Produk 2</h3>
+              <p style="color:#ccc; font-size:1rem;">Deskripsi singkat produk atau karya di sini.</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.04); border-radius:12px; padding:2rem 1.5rem; min-width:220px; flex:1 1 220px; max-width:300px; text-align:center;">
+              <div style="font-size:2.5rem; margin-bottom:0.7rem;">🚀</div>
+              <h3 style="color:#ffff; margin-bottom:0.5rem;">Portofolio/Produk 3</h3>
+              <p style="color:#ccc; font-size:1rem;">Deskripsi singkat produk atau karya di sini.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      </section>
+      <div class="divider"></div>
+      <!-- Contact Section -->
+      <section id="s-kontak">
+        <section id="herokontak">
+          <div class="intro">
+            <h1>Lorem <span>Ipsum</span></h1>
+            <p>Silahkan Hubungi saya jika berkenan.</p>
+            <a href="#contact" class="btn">Klik</a>
+          </div>
+        </section>
+        <div class="divider"></div>
+        <section id="contact" class="formWa" >
+            <div class="container" style="max-width:400px; margin:0 auto; padding:2rem 1rem;">
+              <h2 style="text-align:center; color:#ffb86b; margin-bottom:1.5rem;">Hubungi Saya</h2>
+              <form id="waForm" style="display:flex; flex-direction:column; gap:1.2rem;">
+                <input type="text" id="waName" name="waName" placeholder="Nama" required style="padding:0.8rem 1rem; border-radius:6px; border:1px solid #928dab; background:#232136; color:#fff; font-size:1rem;">
+                <textarea id="waMsg" name="waMsg" placeholder="Pesan" required style="padding:0.8rem 1rem; border-radius:6px; border:1px solid #928dab; background:#232136; color:#fff; font-size:1rem; min-height:90px;"></textarea>
+                <button type="submit" style="padding:0.85rem; border:none; border-radius:6px; background:linear-gradient(90deg,#ffb86b 0%,#928dab 100%); color:#232136; font-size:1.1rem; font-weight:600; cursor:pointer;">Kirim via WhatsApp</button>
+              </form>
+            </div>
+        </section>
+
+      </section> 
+      <div class="divider"></div>
+      
+    </main>
+    <!-- FOOTER JUMBO MODERN -->
+    <footer class="footer-jumbo">
+      <div class="footer-container">
+        <div class="footer-bottom">  
+        <div class="footer-copyright">
+            &copy; 2025 Template Fero. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // WhatsApp Form Handler
+      document.addEventListener('DOMContentLoaded', function() {
+        var waForm = document.getElementById('waForm');
+        if (waForm) {
+          waForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var name = document.getElementById('waName').value.trim();
+            var msg = document.getElementById('waMsg').value.trim();
+            var phone = '628815750989'; // Ganti dengan nomor WhatsApp tujuan
+            var text = encodeURIComponent('Hai! My Name is ' + name + ', ' + msg);
+            var url = 'https://wa.me/' + phone + '?text=' + text;
+            window.open(url, '_blank');
+          });
+        }
+      });
+      // Smooth scroll untuk semua link nav
+    document.querySelectorAll('.nav-list a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId && targetId.startsWith('#')) {
+          const target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            // Tutup drawer jika di mobile
+            document.querySelector('.nav-list').classList.remove('active');
+            document.querySelector('.nav-overlay').classList.remove('active');
+            // Scroll smooth
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+      
+      
+      // Hamburger menu toggle with drawer and overlay
+      const hamburger = document.querySelector('.hamburger');
+      const navList = document.querySelector('.nav-list');
+      const navOverlay = document.querySelector('.nav-overlay');
+      hamburger.addEventListener('click', () => {
+        navList.classList.toggle('active');
+        navOverlay.classList.toggle('active');
+      });
+      navOverlay.addEventListener('click', () => {
+        navList.classList.remove('active');
+        navOverlay.classList.remove('active');
+      });
+
+
+      // Animasi ketik pada .dynamic-text (About Section)
+      function typewriterWords(selector, delay = 120, pause = 1000) {
+        const container = document.querySelector(selector);
+        if (!container) return;
+        const words = Array.from(container.querySelectorAll('.word')).map(w => w.textContent);
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        // Buat span untuk animasi ketik
+        let typeSpan = document.createElement('span');
+        typeSpan.className = 'typewriter';
+        container.innerHTML = '';
+        container.appendChild(typeSpan);
+
+        function type() {
+          const currentWord = words[wordIndex];
+          if (!isDeleting) {
+            typeSpan.textContent = currentWord.substring(0, charIndex + 1);
+            charIndex++;
+            if (charIndex < currentWord.length) {
+              setTimeout(type, delay);
+            } else {
+              setTimeout(() => { isDeleting = true; type(); }, pause);
+            }
+          } else {
+            typeSpan.textContent = currentWord.substring(0, charIndex - 1);
+            charIndex--;
+            if (charIndex > 0) {
+              setTimeout(type, delay / 2);
+            } else {
+              isDeleting = false;
+              wordIndex = (wordIndex + 1) % words.length;
+              setTimeout(type, 500);
+            }
+          }
+        }
+        type();
+      }
+      document.addEventListener('DOMContentLoaded', function() {
+        typewriterWords('.dynamic-text', 90, 900);
+      });
+
+
+    
+    </script>
+  </body>
+</html>
